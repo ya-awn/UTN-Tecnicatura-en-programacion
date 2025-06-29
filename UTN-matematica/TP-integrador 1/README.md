@@ -70,16 +70,24 @@ El uso de IA fue supervisado por el equipo, complementando nuestro razonamiento 
 🔗 Enlace al video en YouTube
 Cada integrante del equipo explica una parte del proyecto, incluyendo código, funcionamiento lógico y reflexiones finales.
 
-## Evaluación
+## Uso de Inteligencia Artificial en el Desarrollo del Proyecto
 
-Este proyecto cumple con los siguientes criterios del trabajo integrador:
+Durante el desarrollo del proyecto, utilizamos inteligencia artificial (IA) como una herramienta complementaria para mejorar y reorganizar nuestro código. El punto de partida fue el archivo Puertas_logicas1.py, que contenía una versión funcional pero limitada del simulador, en la que el usuario ingresaba manualmente los valores 0 y 1 para ver el resultado de operaciones básicas como AND, OR y NOT.
 
-✔ Participación activa de todos los integrantes.
+Aunque ese enfoque cumplía con una parte de la consigna, no representaba una verdadera simulación, ya que no generaba las combinaciones posibles ni mostraba la tabla de verdad completa, lo que limita la comprensión del funcionamiento lógico de las puertas booleanas.
 
-✔ Aplicación de álgebra de Boole y programación en Python.
+Para mejorar el trabajo, consultamos a ChatGPT, quien propuso una estructura más robusta en el archivo PL_IA.py, orientándonos a:
 
-✔ Simulación clara y funcional.
+Generar automáticamente las tablas de verdad completas.
 
-✔ Video explicativo.
+Crear funciones específicas por puerta lógica.
 
-✔ Uso documentado de herramientas de IA.
+Agregar puertas opcionales como XOR, NAND y NOR.
+
+Organizar el menú de forma más clara y didáctica.
+
+Separar mejor la lógica del código y evitar repeticiones.
+
+Gracias a esa referencia, desarrollamos la versión final Puertas_logicas2.py, donde el programa simula correctamente todas las puertas lógicas solicitadas, mostrando el comportamiento completo de cada una en formato tabla. Esto permite explicar de forma clara y visual el concepto de álgebra de Boole aplicado a programación.
+
+La IA fue utilizada de forma ética y responsable, para refinar el código, organizar mejor la lógica y ampliar el alcance del simulador, sin reemplazar nuestro razonamiento ni creatividad.
