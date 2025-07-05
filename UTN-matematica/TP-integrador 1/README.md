@@ -49,8 +49,8 @@ Repetir o salir con la opción 7.
 ## Participación de los Integrantes
 
 Nombre	Tareas Realizadas
-[Nombre del integrante 1]	Programación de las funciones lógicas, validación y pruebas.
-[Nombre del integrante 2]	Documentación, grabación del video, generación del README y uso de IA.
+roberto mendez	Programación de las funciones lógicas, validación y pruebas.
+kenyi meza	Documentación, grabación del video, generación del README y uso de IA.
 
 🤖 Uso de Inteligencia Artificial
 Se utilizó ChatGPT como herramienta de apoyo durante el proceso para:
@@ -67,8 +67,7 @@ El uso de IA fue supervisado por el equipo, complementando nuestro razonamiento 
 
 ## Video Explicativo
 
-🔗 Enlace al video en YouTube
-Cada integrante del equipo explica una parte del proyecto, incluyendo código, funcionamiento lógico y reflexiones finales.
+https://www.youtube.com/watch?v=-0bx3B3Ih3M
 
 ## Uso de Inteligencia Artificial en el Desarrollo del Proyecto
 
