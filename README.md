@@ -1,4 +1,4 @@
-# 🚀 UTN Tecnicatura en Programación - Trabajos y Prácticos
+# 🚀 UTN Tecnicatura en Programación - Trabajos Prácticos
 
 ---
 
@@ -32,6 +32,5 @@ Si deseas contactarme para consultas o intercambiar ideas, escríbeme a:
 ✉️ mezakenyi@gmail.com
 
 ⭐ ¡Gracias por visitar!
-¡Explora, aprende y crece! 🌱
 
 <p align="center"> <img src="https://img.shields.io/badge/UTN-Tecnicatura-blue?style=for-the-badge&logo=university" alt="UTN Tecnicatura"/> <img src="https://img.shields.io/badge/GitHub-ya--awn-black?style=for-the-badge&logo=github" alt="GitHub"/> </p> ```
