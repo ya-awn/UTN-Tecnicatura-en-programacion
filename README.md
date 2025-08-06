@@ -2,7 +2,7 @@
 
 ---
 
-### 👋 ¡Bienvenido/a!
+### 👋 ¡Bienvenido!
 
 Este repositorio contiene **todos los trabajos, proyectos y prácticos** realizados durante la carrera de **Tecnicatura en Programación** en la **Universidad Tecnológica Nacional (UTN)**.
 
@@ -20,14 +20,14 @@ Este repositorio contiene **todos los trabajos, proyectos y prácticos** realiza
 
 ---
 
-🎯 Objetivos
+## 🎯 Objetivos
 Organizar y centralizar todos los trabajos para facilitar su acceso y revisión.
 
 Documentar el progreso académico y las prácticas realizadas.
 
 Contar con un portafolio organizado para consultas futuras o referencias.
 
-📬 Contacto
+## 📬 Contacto
 Si deseas contactarme para consultas o intercambiar ideas, escríbeme a:
 ✉️ mezakenyi@gmail.com
 
