@@ -33,4 +33,11 @@ Si deseas contactarme para consultas o intercambiar ideas, escríbeme a:
 
 ⭐ ¡Gracias por visitar!
 
-<p align="center"> <img src="https://img.shields.io/badge/UTN-Tecnicatura-blue?style=for-the-badge&logo=university" alt="UTN Tecnicatura"/> <img src="https://img.shields.io/badge/GitHub-ya--awn-black?style=for-the-badge&logo=github" alt="GitHub"/> </p> ```
+<p align="center">
+  <a href="https://www.utn.edu.ar/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/UTN-Tecnicatura-blue?style=for-the-badge&logo=university" alt="UTN Tecnicatura" />
+  </a>
+  <a href="https://github.com/ya-awn" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-ya--awn-black?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+</p>
