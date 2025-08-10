@@ -4,7 +4,7 @@ import java.util.Scanner;
  *
  * @author kenyi
  */
-public class DatosPersonales {
+public class Ejercicio3 {
 
     /**
      * @param args the command line arguments

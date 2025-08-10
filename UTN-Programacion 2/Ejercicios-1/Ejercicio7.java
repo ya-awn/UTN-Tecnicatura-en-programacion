@@ -7,7 +7,7 @@
  *
  * @author kenyi
  */
-public class AnalisisCodigo {
+public class Ejercicio7 {
 
     /**
      * @param args the command line arguments
