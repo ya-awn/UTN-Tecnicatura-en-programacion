@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class TP2Ejercicio1 {
     public static void main(String[] args) {
-        try (Scanner scan = new Scanner(System.in)) {   // <-- se cierra solo
+        try (Scanner scan = new Scanner(System.in)) {  
             System.out.print("Ingrese un año: ");
             int anio = scan.nextInt();
 
@@ -14,6 +14,6 @@ public class Ejercicio1 {
             } else {
                 System.out.println("El año " + anio + " no es bisiesto.");
             }
-        } // aquí se cierra scan
+        }
     }
 }
