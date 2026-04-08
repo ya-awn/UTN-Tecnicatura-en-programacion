@@ -11,8 +11,7 @@ Este repositorio contiene **todos los trabajos, proyectos y prácticos** realiza
 ## 📂 Organización por cuatrimestre
 
 ### 📘 Primer cuatrimestre
-- Programación 1 
- - python 
+- Programación 1 |  python |
 - Matemática
  - conceptos basicos y orientados a logica informatica  
 - Organización Empresarial (OE)  
