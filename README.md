@@ -8,18 +8,33 @@ Este repositorio contiene **todos los trabajos, proyectos y prácticos** realiza
 
 ---
 
-## 📂 Contenido por materia
+## 📂 Organización por cuatrimestre
 
-| Materia           | Descripción                                   |
-| ----------------- | --------------------------------------------- |
-| 🖥️ **Programación 1**  | Trabajos y ejercicios iniciales de programación.    |
-| 💻 **Programación 2**  | Proyectos y actividades avanzadas de programación.  |
-| 🖥️ **AYSO**          | Material y prácticas sobre sistemas operativos.     |
-| 📊 **Matemática**      | Ejercicios, parciales y trabajos prácticos.          |
-| 🏢 **Organización Empresarial (OE)** | Proyectos y tareas relacionadas con organización y gestión empresarial. |
+### 📘 Primer cuatrimestre
+- Programación 1 
+ - python 
+- Matemática
+ - conceptos basicos y orientados a logica informatica  
+- Organización Empresarial (OE)  
+- Arquitectura (ayso)
+
+### 📗 Segundo cuatrimestre
+- Programación 2 
+ - java  
+- Probabilidad y estadistica
+- Ingles 1
+ - ingles en entornos de scrum
+- Base de datos 1
+ - mySQL 
+
+### 📙 Tercer cuatrimestre
+- Programación 3
+ - java, javascript, tipescript  
+- Metodologia de sistemas 1
+- Ingles 2
+- Base de datos 2
 
 ---
-
 ## 🎯 Objetivos
 Organizar y centralizar todos los trabajos para facilitar su acceso y revisión.
 
@@ -28,8 +43,7 @@ Documentar el progreso académico y las prácticas realizadas.
 Contar con un portafolio organizado para consultas futuras o referencias.
 
 ## 📬 Contacto
-Si deseas contactarme para consultas o intercambiar ideas, escríbeme a:
-✉️ mezakenyi@gmail.com
+✉️ kenyimeza@outlook.com
 
 ⭐ ¡Gracias por visitar!
 
