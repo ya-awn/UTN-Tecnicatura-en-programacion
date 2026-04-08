@@ -6,34 +6,36 @@
 
 Este repositorio contiene **todos los trabajos, proyectos y prácticos** realizados durante la carrera de **Tecnicatura en Programación** en la **Universidad Tecnológica Nacional (UTN)**.
 
----
-
 ## 📂 Organización por cuatrimestre
 
 ### 📘 Primer cuatrimestre
-- Programación 1 |  python |
-- Matemática
- - conceptos basicos y orientados a logica informatica  
-- Organización Empresarial (OE)  
-- Arquitectura (ayso)
+
+| Materia                    | Descripción                                                       |
+|---------------------------|-------------------------------------------------------------------|
+| Programación 1            | Introducción a la programación con **Python**.                    |
+| Matemática                | Conceptos básicos orientados a la **lógica informática**.         |
+| Organización Empresarial  | Fundamentos de organización y gestión en entornos empresariales.  |
+| Arquitectura (AYSO)       | Bases de **arquitectura de computadoras** y sistemas.             |
 
 ### 📗 Segundo cuatrimestre
-- Programación 2 
- - java  
-- Probabilidad y estadistica
-- Ingles 1
- - ingles en entornos de scrum
-- Base de datos 1
- - mySQL 
+
+| Materia                    | Descripción                                                       |
+|---------------------------|-------------------------------------------------------------------|
+| Programación 2            | Programación orientada a objetos con **Java**.                    |
+| Probabilidad y Estadística| Herramientas estadísticas y probabilísticas aplicadas a informática. |
+| Inglés 1                  | Inglés técnico en **entornos de Scrum** y desarrollo de software.|
+| Base de Datos 1           | Fundamentos de bases de datos relacionales con **MySQL**.         |
 
 ### 📙 Tercer cuatrimestre
-- Programación 3
- - java, javascript, tipescript  
-- Metodologia de sistemas 1
-- Ingles 2
-- Base de datos 2
 
----
+| Materia                    | Descripción                                                       |
+|---------------------------|-------------------------------------------------------------------|
+| Programación 3            | Desarrollo con **Java, JavaScript y TypeScript**.                 |
+| Metodología de Sistemas 1 | Análisis y diseño de sistemas de información.                     |
+| Inglés 2                  | Profundización en inglés técnico para contextos de TI.            |
+| Base de Datos 2           | Diseño y administración avanzada de bases de datos.               |
+
+
 ## 🎯 Objetivos
 Organizar y centralizar todos los trabajos para facilitar su acceso y revisión.
 
