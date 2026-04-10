@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Panel de Administracion - Food Store</title>
+    </head>
+    <body>
+        <header>
+            <h1>Panel de Administracion</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Volver a la Tienda</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+
+        <main>
+            <h2>Gestion de Productos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>categoria</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src=https://soloporgusto.com/wp-content/uploads/2024/04/wendys-cryspy-bbq-bacon-840x640.jpg" width="50" alt="Hamburguesa Triple"/></td>
+                        <td>Hamburguesa Triple</td>
+                        <td>Hamburguesas</td>
+                        <td>$25000</td>
+                        <td>12</td>
+                        <td>
+                            <a href="#">Editar</a> | <a href="#">Eliminar</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td><img src="https://laalemanacomidas.com.ar/wp-content/uploads/2020/09/pizza-muzzarella.jpg" width="50" alt="Pizza de Muzzarella"/></td>
+                        <td>pizza muzzarella</td>
+                        <td>Pizzas</td>
+                        <td>$15000</td>
+                        <td>5</td>
+                        <td>
+                            <a href="#">Editar</a> | <a href="#">Eliminar</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td><img src="https://locosxlaparrilla.com/wp-content/uploads/2015/02/Receta-recetas-locos-x-la-parrilla-locosxlaparrilla-receta-papas-fritas-cheddar-verdeo-panceta-papas-fritas-cheddar-verde-640x477.jpg" width="50" alt="Papas con Cheddar"/></td>
+                        <td>Papas con Cheddar</td>
+                        <td>Papas fritas</td>
+                        <td>$8000</td>
+                        <td>0</td>
+                        <td>
+                            <a href="#">Editar</a> | <a href="#">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <details>
+                <summary>Agregar Producto Rapido</summary>
+                <form action="">
+                    <p>
+                        <label for="nombreProducto">Nombre del Producto:</label><br>
+                        <input id="nombreProducto" type="text" placeholder="Ej: Papas con bacon"/>
+                    </p>
+
+                    <p>
+                        <label for="precioProducto">Precio</label><br>
+                        <input id="precioProducto" type="number" min="0" step="0.01"/>
+                    </p>
+
+                    <p>
+                        <label for="stockProducto">Stock</label><br>
+                        <input id="stockProducto" type="number" min="0"/>
+                    </p>
+
+                    <p>
+                        <label for="categoriaProducto">Categoria:</label><br>
+                        <select id="categoriaProducto">
+                            <option value="">Seleccione una opcion...</option>
+                            <option value="hamburguesas">Hamburguesas</option>
+                            <option value="pizzas">Pizzas</option>
+                            <option value="bebidas">Bebidas</option>
+                            <option value="papas">Papas Fritas</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="descripcionProducto">Descripcion:</label><br>
+                        <textarea id="descripcionProducto" rows="4" cols="40" placeholder="Ingresa los ingredientes..."></textarea>
+                    </p>
+                    <button type="submit">Guardar Producto</button>
+                </form>
+            </details>
+        </main>
+
+        <footer>
+            <hr>
+            <p>Panel de Administracion - Food Store v1.0</p>
+        </footer>
+    </body>
+</html>
