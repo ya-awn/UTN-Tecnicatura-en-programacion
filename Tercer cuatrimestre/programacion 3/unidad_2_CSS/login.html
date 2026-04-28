@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Store - Iniciar Sesión</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+  <div class="login-card">
+
+    <!-- Logo / Título -->
+    <h1>Food Store</h1>
+
+    <!-- Subtítulo -->
+    <p class="subtitulo">Iniciar Sesión</p>
+
+    <!-- Formulario -->
+    <form action="#" method="post" novalidate>
+
+      <!-- Campo Email -->
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="tucorreo@ejemplo.com"
+          required
+        />
+      </div>
+
+      <!-- Campo Contraseña -->
+      <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Mínimo 8 caracteres"
+          required
+          minlength="8"
+        />
+      </div>
+
+      <!-- Botón Ingresar -->
+      <button type="submit" class="btn-ingresar">Ingresar</button>
+
+    </form>
+
+    <!-- Enlace Registro -->
+    <p class="registro-link">
+      ¿No tenes cuenta? <a href="#">Registrate aca</a>
+    </p>
+
+  </div>
+
+</body>
+</html>

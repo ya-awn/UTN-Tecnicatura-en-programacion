@@ -1,0 +1,143 @@
+/* ===== VARIABLES CSS ===== */
+:root {
+  --color-primario: #ff6347;
+  --color-fondo: #f0f0f0;
+  --color-texto: #333;
+  --color-blanco: #fff;
+  --color-borde: #ddd;
+  --color-focus: #ff4500;
+}
+
+/* ===== RESET BASE ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== BODY - CENTRADO CON FLEXBOX ===== */
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-fondo);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+/* ===== TARJETA DEL FORMULARIO - MODELO DE CAJA ===== */
+.login-card {
+  background-color: var(--color-blanco);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 40px 36px 32px;
+  border: 1px solid var(--color-borde);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+}
+
+/* ===== TÍTULO PRINCIPAL ===== */
+.login-card h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primario);
+  line-height: 1.15;
+  margin-bottom: 6px;
+}
+
+/* ===== SUBTÍTULO ===== */
+.login-card p.subtitulo {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--color-texto);
+  margin-bottom: 28px;
+  letter-spacing: 0.5px;
+}
+
+/* ===== GRUPO DE CAMPOS ===== */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* ===== ETIQUETAS ===== */
+.form-group label {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  margin-bottom: 6px;
+  letter-spacing: 0.2px;
+}
+
+/* ===== INPUTS ===== */
+.form-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--color-borde);
+  border-radius: 6px;
+  font-size: 0.97rem;
+  color: var(--color-texto);
+  background-color: var(--color-blanco);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+/* ===== PSEUDOCLASE :FOCUS EN INPUTS ===== */
+.form-group input:focus {
+  border-color: var(--color-focus);
+  box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.15);
+}
+
+/* ===== BOTÓN INGRESAR ===== */
+.btn-ingresar {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  border: none;
+  border-radius: 6px;
+  font-size: 0.97rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* ===== PSEUDOCLASE :HOVER EN BOTÓN ===== */
+.btn-ingresar:hover {
+  background-color: var(--color-focus);
+  transform: translateY(-1px);
+}
+
+.btn-ingresar:active {
+  transform: translateY(0);
+}
+
+/* ===== ENLACE DE REGISTRO ===== */
+.registro-link {
+  text-align: center;
+  margin-top: 22px;
+  font-size: 0.88rem;
+  color: var(--color-texto);
+}
+
+.registro-link a {
+  color: var(--color-primario);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.registro-link a:hover {
+  color: var(--color-focus);
+  text-decoration: underline;
+}
