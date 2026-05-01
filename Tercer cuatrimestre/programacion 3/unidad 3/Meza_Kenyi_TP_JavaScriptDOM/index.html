@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Store</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-brand">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-label="Food Store logo" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="18" cy="18" r="18" fill="#ff6347"/>
+        <path d="M9 14h18M10 18c0 5 2.5 8 8 8s8-3 8-8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="13" cy="11" r="2" fill="#fff"/>
+        <circle cx="18" cy="10" r="2" fill="#fff"/>
+        <circle cx="23" cy="11" r="2" fill="#fff"/>
+      </svg>
+      <h1>Food Store</h1>
+    </div>
+    <nav class="nav">
+      <a href="#">Inicio</a>
+      <a href="#">Mis Pedidos</a>
+      <a href="#">Carrito 🛒</a>
+      <a href="admin.html">Panel Admin</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <h2>Categorías</h2>
+      <!-- Las categorías se inyectan desde JS -->
+      <ul id="lista-categorias"></ul>
+    </aside>
+
+    <main class="main-content">
+      <form id="form-busqueda" class="form-busqueda">
+        <input type="text" id="input-busqueda" placeholder="Buscar productos..." autocomplete="off" />
+        <button type="submit">Buscar</button>
+      </form>
+
+      <h2>Productos Destacados</h2>
+
+      <!-- Los productos se inyectan desde JS -->
+      <section id="contenedor-productos"></section>
+    </main>
+
+  </div>
+
+  <footer class="footer">
+    <p>© 2024 Food Store. Todos los derechos reservados.</p>
+    <p>Contacto: <a href="mailto:info@foodstore.com">info@foodstore.com</a></p>
+  </footer>
+
+  <!-- Scripts: primero datos, luego lógica -->
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+</html>
